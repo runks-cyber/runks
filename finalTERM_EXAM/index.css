@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #F4EDE2; 
+    margin: 0;
+    padding: 0;
+    color: #5B4636; 
+}
+
+.container {
+    width: 100%;
+    margin-top: 60px;
+}
+
+/* Logo Styling */
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #B07A52; /* Medium coffee color for heading */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #5B4636; /* Adds a subtle coffee-brown shadow */
+}
+
+/* Button Container */
+.buttons {
+    margin-top: 40px;
+}
+
+/* Button Styling */
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8F5C38; /* Warm coffee-brown button background */
+    border: 2px solid #6D4A33; /* Slightly darker brown border */
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Buttons */
+.buttons a:hover {
+    background-color: #B07A52; /* Medium coffee color on hover */
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .logo {
+        width: 140px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .buttons a {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}

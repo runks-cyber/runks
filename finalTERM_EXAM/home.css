@@ -1,0 +1,133 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url("bigbrewlogo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 20px; 
+  }
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.navbar .logo span{
+    color: rgb(107, 72, 72);
+}
+
+.navbar .menu-links{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover {
+    color: rgb(130, 52, 52)n;
+    
+}
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.hero-section .content{
+    color: #000000;
+    max-width: 1200px;
+    width: 100%;
+    margin: o auto;
+}
+
+.hero-section .content .h1{
+    font-size: 5rem;
+    max-width: 800px;
+}
+
+.hero-section .content .p{
+    font-family: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.hero-section .content button{
+   background: #fff;
+   outline: none;
+   border: none;
+   font-size: 1rem;
+   font-weight: 500;
+   margin-top: 38px;
+   padding: 12px 30px;
+   border-radius: 6px;
+   cursor: pointer;
+   transition: 0.2s ease;
+}
+
+.hero-section .content button:hover{
+    color: #fff;
+    background: #4f3b33;
+}
+
+/* New styles for the greeting message */
+.greeting {
+    font-size: 1.9rem; /* Adjust the size as needed */
+    font-weight: bold; /* Make it bold */
+    color: #000; /* Change the color to match your theme */
+    margin: 10px 0; /* Add some space around it */
+    background: transparent; /* Ensure no background color */
+    
+}
+
+.navbar a{
+    color: #000000;
+}
+    
+.navbar a i {
+    margin-right: 5px; /* Space between icon and text */
+    color: #000; /* Change icon color */
+    font-size: 1.9rem; /* Change icon size */
+}
+
+
+  

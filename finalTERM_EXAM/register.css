@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF; 
+}
+
+.wrapper {
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #FAF3E0; 
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h2 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #5B4636; 
+}
+
+
+.wrapper h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #B07A52; 
+}
+
+.wrapper form {
+  margin-top: 30px;
+}
+
+.wrapper form .input-box {
+  height: 52px;
+  margin: 18px 0;
+}
+
+form .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #5B4636; 
+  border: 1.5px solid #C2A98A; 
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+
+.input-box input:focus,
+.input-box input:valid {
+  border-color: #B07A52; 
+}
+
+/* Enhanced error message styling */
+.error {
+  background-color: #F8D7DA; /* Light red background */
+  color: #721C24; /* Dark red text color */
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #F5C6CB; /* Border to match the background */
+  border-radius: 4px; /* Rounded corners */
+}
+
+form h3 {
+  color: #8A6F5B; 
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+
+.input-box.button input {
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #B07A52; 
+  cursor: pointer;
+}
+
+.input-box.button input:hover {
+  background: #8F5C38; 
+}
+
+form .text h3 {
+  color: #5B4636; 
+  width: 100%;
+  text-align: center;
+}
+
+
+form .text h3 a {
+  color: #B07A52; 
+  text-decoration: none;
+}
+
+form .text h3 a:hover {
+  text-decoration: underline;
+}
+
+.input-box {
+  position: relative;
+  height: 52px;
+  margin: 18px 0;
+}
+
+input[type="password"] {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 40px 0 15px; 
+  font-size: 17px;
+  font-weight: 400;
+  color: #5B4636; 
+  border: 1.5px solid #C2A98A; 
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #B07A52; 
+}
+
+.toggle-password:hover {
+  color: #8F5C38; 
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* White background for the body */
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF; /* Pure white background */
+}
+
+.wrapper {
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #FAF3E0; /* Off-white, light cream */
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h2 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #5B4636; /* Darker coffee brown for headings */
+}
+
+/* Coffee-colored line below the word "Registration" */
+.wrapper h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #B07A52; /* Medium coffee color */
+}
+
+.wrapper form {
+  margin-top: 30px;
+}
+
+.wrapper form .input-box {
+  height: 52px;
+  margin: 18px 0;
+  position: relative; /* Added for positioning toggle button */
+}
+
+form .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #5B4636; /* Darker coffee brown */
+  border: 1.5px solid #C2A98A; /* Lighter brown for borders */
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Coffee color border when clicking input box */
+.input-box input:focus,
+.input-box input:valid {
+  border-color: #B07A52; /* Medium coffee color */
+}
+
+.error {
+    color: #D9534F; /* Bootstrap's danger color (red) */
+    background-color: #F2DEDE; /* Light red background */
+    border: 1px solid #EBB3B3; /* Light red border */
+    padding: 10px;
+    border-radius: 5px; /* Slightly rounded corners */
+    margin-top: 10px;
+    font-size: 14px; /* Font size */
+    text-align: center; /* Center the text */
+}
+
+form h3 {
+  color: #8A6F5B; /* Medium-light brown for additional text */
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* Medium coffee background for Register Now button */
+.input-box.button input {
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #B07A52; /* Medium coffee color */
+  cursor: pointer;
+}
+
+.input-box.button input:hover {
+  background: #8F5C38; /* Slightly darker coffee brown on hover */
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #B07A52;
+  
+}
+
+.toggle-password:hover {
+  color: #8F5C38;
+}
+
+form .text h3 {
+  color: #5B4636; /* Darker coffee brown */
+  width: 100%;
+  text-align: center;
+}
+
+/* Coffee color for Log In link */
+form .text h3 a {
+  color: #B07A52; /* Medium coffee color */
+  text-decoration: none;
+}
+
+form .text h3 a:hover {
+  text-decoration: underline;
+}
